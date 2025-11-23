@@ -137,10 +137,11 @@
       <div class="row justify-content-between align-items-center">
 
         <div class="col-md-2 border-end">
-          <a class="nav-link fw-medium hover-red" href="#">
+          <a class="nav-link fw-medium hover-red sidebar-btn " href="#">
             <i class="fa-solid fa-bars"></i> SHOP BY CATEGORIES
           </a>
         </div>
+
 
         <div class="col-8 d-none d-md-block">
           <ul class="d-flex list-unstyled fs-6 m-0 align-items-center">
@@ -406,6 +407,35 @@
 
 
   </header>
+  <div class="position-fixed top-0 end-0 start-0 bottom-0 bg-black bg-opacity-50 z-3 sidebar d-none">
+    <div class="bg-white w-25">
+
+      <a class="nav-link fw-medium bg-black text-white p-3 hover-red sidebar-btn" href="#">
+        <i class="fa-solid fa-bars"></i> SHOP BY CATEGORIES
+      </a>
+      <ul class="flex-column d-flex list-unstyled vh-100">
+
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Fashion</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Phone & Tablet</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Laptop & Computer</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#" class="nav-link py-1">TV
+            , Audio- Video</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">camera & Photo</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Home & Decor</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Beauty & Health</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Game Accessories</a><i class="fa-solid fa-chevron-right"></i></li>
+        <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+            class="nav-link py-1">Autopart</a><i class="fa-solid fa-chevron-right"></i></li>
+      </ul>
+    </div>
+  </div>
   <!-- End Header section -->
   <!--Start slider section -->
   <section class="slider over">
@@ -455,10 +485,14 @@
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">next</span>
+            </button>
           </div>
         </div>
 
-        <!-- Right Column -->
         <div class="col-sm-12 col-md-4 d-flex flex-column p-0">
           <div class="img-box bg-gray overflow-hidden d-flex justify-content-center">
             <div class="content w-40 p-3">
@@ -668,8 +702,19 @@
     <div class="container">
 
       <div class="d-flex justify-content-between">
+        <div id="days2"></div>
+        <div id="hours2"></div>
+        <div id="minutes2"></div>
+        <div id="seconds2"></div>
+
+        <div id="hours1"></div>
+        <div id="minutes1"></div>
+        <div id="seconds1"></div>
+
         <h2 class="fw-bold fs-2 w-75">Flash Deals</h2>
-        <div class="fs-2"><a href="#" class="nav-link position-relative d-inline fw-lighter">Sea All Product<div
+
+
+        <div class="fs-2"><a href="#" class="nav-link position-relative fw-lighter">Sea All Product<div
               class="line position-absolute start-0 end-0"></div>
           </a>
         </div>
@@ -910,7 +955,8 @@
       <div class="my-3 row">
         <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1 position-relative">
           <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/shoes.jpg" alt=""></div>
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/shoes.jpg" alt="">
+            </div>
             <div class="content">
               <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
               <p class="fw-bold">148$</p>
@@ -932,13 +978,18 @@
           <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
             <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
             <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1">
           <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/glasses.jpg" alt=""></div>
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/glasses.jpg" alt="">
+            </div>
             <div class="content">
               <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
               <p class="fw-bold">148$</p>
@@ -955,13 +1006,18 @@
           <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
             <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
             <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1 position-relative">
           <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/skirt.jpg" alt=""></div>
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/skirt.jpg" alt="">
+            </div>
             <div class="content">
               <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
               <p class="fw-bold">148$</p>
@@ -978,13 +1034,18 @@
           <div class="d-flex my-3 d-none btns position-absolute  z-3 bottom-0">
             <button class="btn-outline-dark btn w-100 p-2">+SELECT OPTION</button>
             <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1">
           <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/t-shirt.jpg" alt=""></div>
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/t-shirt.jpg" alt="">
+            </div>
             <div class="content">
               <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
               <p class="fw-bold">148$</p>
@@ -1000,36 +1061,18 @@
           <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
             <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
             <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1">
           <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/jacket.jpg" alt=""></div>
-            <div class="content">
-              <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-              <p class="fw-bold">148$</p>
-              <div class="icons d-flex">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-
-              </div>
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/jacket.jpg" alt="">
             </div>
-          </div>
-          <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
-            <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
-            <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1">
-          <div class="inner  align-items-center  d-flex">
-            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/cap.png" alt=""></div>
             <div class="content">
               <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
               <p class="fw-bold">148$</p>
@@ -1046,7 +1089,39 @@
           <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
             <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
             <div class="d-flex icons">
-              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i class="fa-solid fa-code-compare fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-solid fa-search fa-xl"></i></a>
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-6 position-relative hover-shadow border border-1">
+          <div class="inner  align-items-center  d-flex">
+            <div class="img-box w-75"><img class="same-size object-fit-contain w-100" src="./images/cap.png" alt="">
+            </div>
+            <div class="content">
+              <p class="fw-medium">Hot Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+              <p class="fw-bold">148$</p>
+              <div class="icons d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+              </div>
+            </div>
+          </div>
+          <div class="d-flex my-3 d-none btns position-absolute z-3 bottom-0">
+            <button class="btn-outline-dark btn w-75 p-2">+SELECT OPTION</button>
+            <div class="d-flex icons">
+              <a class="nav-link bg-gray p-2 rounded rounded-2 mx-2" href="#"><i
+                  class="fa-solid fa-code-compare fa-xl"></i></a><a href="#"
+                class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i class="fa-heart fa-solid fa-xl"></i></a><a
+                href="#" class="nav-link bg-gray p-2 rounded rounded-2 mx-2"><i
+                  class="fa-solid fa-search fa-xl"></i></a>
             </div>
           </div>
         </div>
@@ -1054,59 +1129,92 @@
     </div>
   </section>
   <!-- End New Arrivals section  -->
-   <!-- start Slider Hoodies -->
-  <section class="bg-gray my-5 hoodies">
-    <div class="container">
-      <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img src="./images/slide-hoodie-1.png" alt=""></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"><img src="./images/slide-hoodie-2.png" alt=""></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"><img src="./images/slide-hoodie-3.png" alt=""></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"><img src="./images/slide-hoodie-4.png" alt=""></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/slide-hoodie-1.png" class="d-block w-40" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+  <!-- start Slider Hoodies -->
+  <section class="my-5 hoodies bg-gray p-2">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-between">
+        <div class="carousel-inner w-5 position-relative">
+          <button class="carousel top-100 border-0 start-0 bg-transparent" type="button"
+            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+        </div>
+
+
+        <div class="col-md-4">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="./images/slide-hoodie-1.png" class="d-block w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/slide-hoodie-2.png" class="d-block w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/slide-hoodie-3.png" class="d-block w-100" alt="">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/slide-hoodie-4.png" class="d-block w-100" alt="">
+              </div>
+              <div class="position-absolute bg-danger discount rounded-circle text-white p-4"><span
+                  class="fw-bolder fs-3">30%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bg-white p-5 shadow rounded">
+          <h2 class="fw-bolder">Athletics Embroidered Relaxed Hoodie</h2>
+          <p><i class="fa-solid fa-check text-success"></i> 64% cotton, 36% polyester</p>
+          <p><i class="fa-solid fa-check text-success"></i> Do not dry clean</p>
+          <p><i class="fa-solid fa-check text-success"></i> Machine wash</p>
+          <hr>
+          <p class="fw-bold fs-3">$89 <del class="text-secondary fs-5">$120</del></p>
+
+          <div class="d-flex mt-3 gap-2">
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true"
+              aria-label="Slide 1" class="active border p-0 rounded">
+              <img src="./images/slide-hoodie-1.png" width="50" class="rounded" alt="">
+            </button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+              class="border p-0 rounded">
+              <img src="./images/slide-hoodie-2.png" width="50" class="rounded" alt="">
+            </button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+              class="border p-0 rounded">
+              <img src="./images/slide-hoodie-3.png" width="50" class="rounded" alt="">
+            </button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"
+              class="border p-0 rounded">
+              <img src="./images/slide-hoodie-4.png" width="50" class="rounded" alt="">
+            </button>
+
+          </div>
+          <button class="btn btn-dark my-2 w-100">Buy Now</button>
+        </div>
+
+        <div class="carousel-inner w-5 position-relative">
+          <button class="carousel bg-transparent top-100 border-0 start-0" type="button"
+            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">next</span>
+          </button>
+
+        </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./images/slide-hoodie-2.png" class="d-block w-40" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./images/slide-hoodie-3.png" class="d-block w-40" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./images/slide-hoodie-4.png" class="d-block w-40" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev text-black bg-danger h-25 w-0 top-50 start-0 translate-middle" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next  h-25 w-0 top-50 end-0 translate-middle" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     </div>
   </section>
-   <!-- start Best Selling -->
-    <section class="best my-5">
+
+  <!-- start Best Selling -->
+  <section class="best my-5">
     <div class="container">
 
       <div class="d-flex justify-content-between">
@@ -1271,7 +1379,7 @@
       </div>
     </div>
   </section>
-   <!-- end Best Selling -->
+  <!-- end Best Selling -->
   <!-- Start section blog -->
   <section class="blog my-4">
     <div class="container">
@@ -1318,7 +1426,8 @@
           </div>
 
           <div class="carousel-item">
-            <div class="row justify-content-between">
+            <div class="row text-black justify-content-between">
+
               <div class="col-md-4">
                 <div class="img-box position-relative overflow-hidden">
                   <img src="./images/blog-2.jpg" class="d-block w-100 same-size" alt="Blog 4">
@@ -1353,9 +1462,9 @@
           </div>
 
         </div>
-        <button class="carousel-control-prev start-0 bg-danger" type="button" data-bs-target="#carouselExample"
+        <button class="carousel-control-prev start-0" type="button" data-bs-target="#carouselExample"
           data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bg-beige " aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
 
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
@@ -1508,12 +1617,17 @@
   </footer>
   <!-- End Section Footer end -->
   <!-- Scroll Up  -->
-  <div class="scroll-up bg-black position-fixed p-3 hovrt"><i class="fa-solid fa-arrow-up fa-2x text-white"></i></div>
+  <div class="scroll-up transition bg-black position-fixed p-3"><i class="fa-solid fa-arrow-up fa-2x text-white"></i>
+  </div>
   <!-- End Scroll Up  -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./js/owl.carousel.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
   <script src="./js/index.js"></script>
+
+
 </body>
 
 </html>

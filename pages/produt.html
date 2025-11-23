@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product-details</title>
+    <link rel="shortcut icon" href="./../images/cropped-favicon-1-270x270.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./../css/owl.theme.default.css">
+
+    <link rel="stylesheet" href="./../css/index.css">
+
+</head>
+
+<body>
+    <!-- appear in md screen only -->
+    <div class="contact d-none d-md-block d-lg-none bg-black text-white">
+        <div class="d-flex justify-content-between">
+
+            <div class="row mx-auto w-50 align-items-center">
+                <div class="col-3 languages">
+                    <p class="hover-red">English<i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="position-relative">
+                        <ul
+                            class="shadow mt-0 text-black z-3 bg-white border-2 border px-4 list-unstyled position-absolute">
+                            <li>Español</li>
+                            <li>Français</li>
+                            <li>Português</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 cities">
+                    <p class="hover-red">USD <i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="position-relative">
+                        <ul
+                            class="shadow mt-0 text-black bg-white z-3 border-2 border px-4 list-unstyled position-absolute top-100 start-0 ">
+                            <li>EUR</li>
+                            <li>BRL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="w-50 text-end">Contact us 24/7 (+92) 3942 7879</p>
+        </div>
+    </div>
+    <!-- Navbar section start -->
+    <nav class="navbar sticky-lg-top bg-white navbar-expand-lg border-bottom">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#"><img class="" src="./../images/logo.png" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="d-flex phone-number align-items-center hover-red ">
+                    <i class="fa-xl fa-solid fa-phone"></i>
+                    <p class="w-75">Contact us 24/7
+                        (+92) 3942 7879</p>
+                </div>
+
+                <div class="input-search bg-body-secondary p-1 d-flex justify-content-between rounded rounded-2">
+                    <select class=" border-0 rounded-0 bg-transparent" aria-label="Default select example">
+                        <option selected>All Categories</option>
+                        <optgroup label="Autopart">
+                            <option value="Accessories">Accessories</option>
+                            <option value="Car Care">Car Care</option>
+                            <option value="Car Electronics">Car Electronics</option>
+                            <option value="Equipment">Equipment</option>
+                            <option value="Lights">Lights</option>
+                            <option value="Wheels">Wheels</option>
+                        </optgroup>
+                        <optgroup label="Beauty and Healthy">
+                            <option value="Bags and cases">Bags and cases</option>
+                            <option value="BB Creams">BB Creams</option>
+                            <option value="Body & Bath">Body & Bath</option>
+                            <option value="Hair care">Hair care</option>
+                            <option value="Mascara">Mascara</option>
+                        </optgroup>
+                    </select>
+                    <div class="vertical-line"></div>
+                    <input type="text" class="w-75 px-1" placeholder="Search For products">
+                    <a class="btn btn-dark"><i class="fa-search fa-solid"></i></a>
+                </div>
+                <div class="div d-none">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis debitis aliquam sunt a voluptate
+                        dolorem
+                        qui necessitatibus laudantium, repellat ratione illo, tempore totam excepturi. Sapiente quo
+                        maxime
+                        delectus voluptas facilis?</p>
+                </div>
+            </div>
+            <div class="row mx-auto w-50 align-items-center">
+                <div class="col-3 d-block d-md-none d-lg-block languages">
+                    <p class="hover-red">English<i class="fa-solid fa-chevron-down"></i>
+                    </p>
+                    <div class="position-relative">
+                        <ul class="shadow z-3 px-2 bg-white border-2 border list-unstyled position-absolute">
+                            <li>Español</li>
+                            <li>Français</li>
+                            <li>Português</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 d-block d-md-none d-lg-block cities">
+                    <p class="hover-red">USD <i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="position-relative">
+                        <ul
+                            class="shadow bg-white z-3 border-2 border px-4 list-unstyled position-absolute top-100 start-0 ">
+                            <li>EUR</li>
+                            <li>BRL</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <ul class="list-unstyled  d-flex justify-content-between">
+                        <li class="hover-red"><i class="fa-solid fa-lg fa-person"></i> Account</li>
+                        <li class="hover-red"><i class="fa-solid fa-lg fa-heart"></i></li>
+                        <li class="hover-red"><i class="fa-solid fa-lg fa-shop"></i></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+
+    </nav>
+    <!-- End nav -->
+    <!-- Start Header Section -->
+
+    <header class="border-0 border-bottom position-relative">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-md-2 border-end">
+                    <a class="nav-link fw-medium hover-red sidebar-btn " href="#">
+                        <i class="fa-solid fa-bars"></i> SHOP BY CATEGORIES
+                    </a>
+                </div>
+
+
+                <div class="col-8 d-none d-md-block">
+                    <ul class="d-flex list-unstyled fs-6 m-0 align-items-center">
+                        <li class="py-3 menu">
+                            <a class="nav-link me-3 hover-red active" href="#">Homepages <i
+                                    class="fa-solid fa-chevron-down"></i></a>
+
+                            <section class="bg-gray menu-section position-absolute d-none top-100 start-0 end-0 z-3">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="../images/mega-home-1.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Supermarket 01</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="./../images/mega-home-2.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Supermarket 02</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="./../images/mega-home-3.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Furniture</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="./../images/mega-home-4.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Electronics</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="./../images/mega-home-5.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Autopart</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div
+                                                class="inner hover-shadow p-3 border-2 border-dark bg-white my-2 rounded-3 rounded">
+                                                <div class="img-box"><img class="w-100 d-block"
+                                                        src="./../images/mega-home-6.jpg" alt=""></div>
+                                                <p class="fw-bold text-center my-1">Cosmetics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#">Categories <i
+                                    class="fa-solid fa-chevron-down"></i></a>
+                            <section
+                                class="menu-section position-absolute d-none top-100 start-0 end-0 z-3 bg-gray p-4">
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <ul class="d-flex list-unstyled flex-column">
+                                                <li>
+                                                    <a href="#" class="my-2 fw-bold nav-link">SHOP LAYOUTS</a>
+                                                </li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Top Categories- Style
+                                                        -1</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Top Categories-
+                                                        Style-2</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Top Brands</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">List Layout</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Colllapse Scroll
+                                                        Sidbar</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Filter Sidebar</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Top Banner</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Bottom Banner</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-3">
+                                            <ul class="d-flex list-unstyled flex-column">
+                                                <li>
+                                                    <a href="#" class="my-2 fw-bold nav-link">SHOP LAYOUTS</a>
+                                                </li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Load More button</a>
+                                                </li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Infinity Scroll</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Ajax Pagination</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Supermarket</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Furniture</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Electronic</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Autopart</a></li>
+                                                <li><a href="#" class="hover-red py-2 nav-link">Cosmetic</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="inner">
+                                                <img class="d-block w-100" src="./../images/mega-shop-layout.png"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#">Products <i
+                                    class="fa-solid fa-chevron-down"></i></a>
+                            <section class="menu-section position-absolute d-none top-100  z-3 bg-white shadow p-4">
+                                <ul class="list-unstyled flex-column my-2 d-flex">
+                                    <li><a href="#" class="py-2 nav-link hover-red">Simple products</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Variable - Label Attribute</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Variable - DRopdown Attribute</a>
+                                    </li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Variable - Color Switch</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Variable - variable Thumbanil</a>
+                                    </li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Group Products</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">External Products</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Vertical Thumbnail</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Horizontal Thumbnail</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Summary Scrolling</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Flash Sale</a></li>
+                                    <li><a href="#" class="py-2 nav-link hover-red">Video + 360 degree</a></li>
+                                </ul>
+
+                            </section>
+                        </li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#">Pages <i
+                                    class="fa-solid fa-chevron-down"></i></a>
+                            <section
+                                class="menu-section position-absolute d-none top-100 start-0 end-0 z-3 bg-gray p-4">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href="#" class="nav-link py-2 hover-red  fw-bold">HOMEPAGES</a>
+                                                </li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Home Supermarket</a>
+                                                </li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Home supermarket</a>
+                                                </li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Home Furniture</a></li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">home Electronic</a>
+                                                </li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Home Autopart</a></li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Home Cosmetic</a></li>
+                                            </ul>
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href="#" class="nav-link py-2 hover-red  fw-bold">OTHER PAGES</a>
+                                                </li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Blog</a></li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">About us</a></li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Contact Us</a></li>
+                                                <li><a href="#" class="nav-link py-2 hover-red ">Coming Soon</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-3">
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href=""
+                                                        class="nav-link py-2 hover-red  fw-bold">SUPERMARKET_SHOP</a>
+                                                </li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Brand</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Shop List</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Shop Scroll</a></li>
+                                            </ul>
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href=""
+                                                        class="nav-link py-2 hover-red  fw-bold">FURNITURE_TOP</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Brand</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-3">
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href=""
+                                                        class="nav-link py-2 hover-red  fw-bold">ELECTRONIC_SHOP</a>
+                                                </li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Brand</a></li>
+                                            </ul>
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href=""
+                                                        class="nav-link py-2 hover-red  fw-bold">AUTOMOTIVE_SHOP</a>
+                                                </li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Brand</a></li>
+                                            </ul>
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href="" class="nav-link py-2 hover-red  fw-bold">COSMMETIC</a>
+                                                </li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Categories</a></li>
+                                                <li><a href="" class="nav-link py-2 hover-red ">Top Brand</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-3">
+                                            <ul class="list-unstyled my-2">
+                                                <li><a href=""
+                                                        class="nav-link py-2 hover-red  fw-bold">Products_PAGES</a></li>
+
+                                                <li><a href="#" class="py-2 nav-link hover-red">Simple products</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Variable - Label
+                                                        Attribute</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Variable - DRopdown
+                                                        Attribute</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Variable - Color
+                                                        Switch</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Variable - variable
+                                                        Thumbanil</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Group Products</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">External Products</a>
+                                                </li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Vertical Thumbnail</a>
+                                                </li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Horizontal Thumbnail</a>
+                                                </li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Summary Scrolling</a>
+                                                </li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Flash Sale</a></li>
+                                                <li><a href="#" class="py-2 nav-link hover-red">Video + 360 degree</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#">About us</a></li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#">Blog</a></li>
+                        <li class="py-3 menu"><a class="nav-link me-3  hover-red" href="#"><i
+                                    class="fa-solid fa-percent"></i> Best
+                                Discount</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2 menu py-3 text-end d-none d-md-block">
+                    <a class="nav-link fw-medium hover-red hover-red" href="#">
+                        Recently viewed <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <section
+                        class="menu-section bg-white menu-section position-absolute d-none top-100 start-0 end-0 z-3">
+                        <div class="container">
+                            <div class="owl-carousel">
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box">
+                                                <img class="d-block w-100" src="./../images/book.png" alt="">
+                                            </div>
+                                            <p class="">Micellar water with Vitamin C</p>
+                                            <h3 class="fw-bold">15$</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/autopart.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/autopart2.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/T_shirt.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/T_shirt.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/T_shirt.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/T_shirt.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/T_shirt.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/cosmetic.png" alt=""></div>
+                                        </div>
+                                        <p class="">Micellar water with Vitamin C</p>
+                                        <h3 class="fw-bold">15$</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="border border-1 hover-shadow">
+                                        <div class="inner text-center">
+                                            <div class="img-box"><img class="d-block w-100"
+                                                    src="./../images/cosmetic2.png" alt="">
+                                            </div>
+                                            <p class="">Micellar water with Vitamin C</p>
+                                            <h3 class="fw-bold">15$</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
+
+    </header>
+    <!-- Sidebar -->
+
+    <div class="position-fixed top-0 end-0 start-0 bottom-0 bg-black bg-opacity-50 sidebar d-none">
+        <div class="bg-white w-25">
+
+            <a class="nav-link  fw-medium bg-black text-white p-3 hover-red sidebar-btn" href="#">
+                <i class="fa-solid fa-bars"></i> SHOP BY CATEGORIES
+            </a>
+            <ul class="flex-column d-flex list-unstyled vh-100">
+
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Fashion</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Phone & Tablet</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Laptop & Computer</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">TV , Audio- Video</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">camera & Photo</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Home & Decor</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Beauty & Health</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Game Accessories</a><i class="fa-solid fa-chevron-right"></i></li>
+                <li class="p-2 my-1 d-flex justify-content-between border-bottom border-1"><a href="#"
+                        class="nav-link py-1">Autopart</a><i class="fa-solid fa-chevron-right"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Sidebar -->
+    <!-- End Header section -->
+    <!-- product section-->
+    <section class="product my-3">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-1">
+                    <div class="d-flex flex-column">
+                        <div class="img-box border-1 border rounded rounded-2 my-2 border-black"><img
+                                src="./../images/T_shirt.png" class="w-100" alt=""></div>
+                        <div class="img-box border-1 border rounded rounded-2 my-2 "><img src="./../images/t-shirt.jpg"
+                                class="w-100" alt=""></div>
+                        <div class="img-box border-1 border rounded rounded-2 my-2 "><img src="./../images/jacket.jpg"
+                                class="w-100" alt=""></div>
+                        <div class="img-box border-1 border rounded rounded-2 my-2 "><img src="./../images/shirt.jpg"
+                                class="w-100" alt=""></div>
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <div class="img-box border-1 border rounded rounded-2 my-2"><img src="./../images/T_shirt.png"
+                            class="w-100" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-gray">
+                        Zara
+                    </p>
+                    <h2 class="fw-bold">
+                        Winter New Jacket Loose Retro American Campus</h2>
+                    <div class="icons d-flex">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="text-gray">4.50 (2 Reviews) <span class="hover-red">Write a review</span></p>
+                    </div>
+                    <p><i class="fa-solid fa-check text-success"></i> Unique Design</p>
+                    <p><i class="fa-solid fa-check text-success"></i> Premium Material</p>
+                    <p><i class="fa-solid fa-check text-success"></i> Classic & Versatile</p>
+                    <span class="fw-bold">$499</span>
+                    <span class="text-secondary text-decoration-line-through">$599</span>
+                    <span class="text-danger ps-2">(Save $100)</span>
+                    <div class="d-flex gap-2 my-3">
+                        <div class="bg-danger text-white px-3 py-2 rounded fw-bold" id="days2" >00</div>
+                        <div class="bg-danger text-white px-3 py-2 rounded fw-bold" id="hours2" >00</div>
+                        <div class="bg-danger text-white px-3 py-2 rounded fw-bold" id="minutes2" >00</div>
+                        <div class="bg-danger text-white px-3 py-2 rounded fw-bold" id="seconds2" >00</div>
+                    </div>
+                    <div class="valid px-2 my-1"><span class="p-1 rounded bg-success-subtle text-success">In
+                            Stock</span></div>
+                    <p class="fw-bolder">Size:</p>
+                    <div class="sizes">
+                        <span class="bg-gray p-2 rounded hover-bg-black transition">M</span>
+                        <span class="bg-gray p-2 rounded hover-bg-black transition">L</span>
+                        <span class="bg-gray p-2 rounded hover-bg-black transition">Xl</span>
+                        <span class="bg-gray p-2 rounded hover-bg-black transition">XXL</span>
+                        <span class="bg-gray p-2 rounded hover-bg-black transition">3XL</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center my-3">
+                        <div class="bg-gray rounded-1 w-20">
+                            <div class="px-2">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <i class="fa-minus fa-solid"></i>
+                                    <p>1</p>
+                                    <i class="fa-plus fa-solid"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-1 w-75">
+                            <button class="btn btn-outline-dark w-100 fw-bold">+ ADD TO CART</button>
+                        </div>
+                        <div class="mx-1 w-25">
+                            <button class="btn btn-danger w-100">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="d-flex w-50 justify-content-between my-0">
+                        <p class="text-gray"><i class="fa-heart fa-solid"></i> Add to Wishlist</p>
+                        <p class="text-gray"><i class="fa-code-compare fa-solid"></i> Add to Compare</p>
+                    </div>
+                    <div class="special-offer p-3 border border-black border-1 rounded">
+                        <p><i class="fa-solid fa-file"></i>10% off, maximum $20 when paying with PAYPAL</p>
+                        <p><i class="fa-solid fa-gear"></i>50% off or More iPad Cases, Covers & Keyboard FoliosL</p>
+
+                    </div>
+                    <p class="text-gray fw-bold"><span class="text-black">SUK: </span> 5TS8SOG5M5</p>
+                    <p class="text-gray fw-bold"><span class="text-black">Category: </span>Hoodies, Jackets & Coats</p>
+                    <div class="icons d-flex">
+                        <a href="https//:www.facebook.com" class="nav-link">
+                            <i class="fa-brands fa-solid fa-facebook hover-red fa-xl"></i>
+                        </a>
+                        <a href="https//:www.pintrest.com" class="nav-link">
+                            <i class="fa-brands fa-solid fa-pinterest hover-red fa-xl"></i>
+                        </a>
+                        <a href="https//:www.linkedin.com" class="nav-link">
+
+                            <i class="fa-brands fa-solid fa-linkedin hover-red fa-xl"></i>
+                        </a>
+                        <a href="https//:www.twitter.com" class="nav-link">
+                            <i class="fa-brands fa-solid fa-twitter hover-red fa-xl"></i>
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start payment section -->
+    <section class="payment my-3">
+        <div class="container bg-success-subtle rounded">
+            <div class="row py-3 justify-content-between align-items-center">
+                <div class="col-md-6 col-sm-12 col-lg-5">
+                    <h2 class="fw-bolder">Earn Cash Back For The Things You Buy Every Where</h2>
+                    <p>Application via Merto. <span class="border-bottom border-black">Terms & Conditions.</span></p>
+                </div>
+                <div class="col-md-3 col-sm-12 col-lg-2">
+                    <button class="btn-success btn w-75 p-2">VIEW MORE</button>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-5">
+                    <img src="./../images/payments-2-1.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Payment Section -->
+    <!-- Start information section -->
+    <section class="info my-2">
+        <div class="container">
+
+            <ul class="nav nav-pills mb-1" id="pills-tab" role="tablist">
+                <li class="nav-item d-flex" role="presentation">
+                    <button class="nav-link active  fs-3 fw-bolder text-gray mx-2  hover-black" id="pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                        aria-controls="pills-home" aria-selected="true">Description</button>
+
+                    <div class="vertical-line h-100"></div>
+                </li>
+
+                <li class="nav-item d-flex" role="presentation">
+                    <button class="nav-link  fs-3 fw-bolder text-gray mx-2 hover-black" id="pills-profile-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">Specification</button>
+                    <div class="vertical-line h-100"></div>
+
+
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fs-3 fw-bolder text-gray mx-2 hover-black" id="pills-contact-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                        aria-controls="pills-contact" aria-selected="false">Reviews(2)</button>
+                </li>
+
+            </ul>
+            <hr class="m-0">
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="row my-5" id="description">
+                        <div class="col-md-6">
+                            <p>Compellingly grow performance based mindshare through parallel potentialities.
+                                Rapidiously underwhelm
+                                top-line catalysts for change before best-of-breed materials. Competently brand timely
+                                catalysts
+                                for
+                                change through sustainable systems. Completely expedite ubiquitous bandwidth after
+                                integrated
+                                action
+                                items. Progressively transform leading-edge supply chains whereas flexible niche
+                                markets.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="border border-dark-subtle rounded-2 rounded border-1">
+                                <tbody>
+                                    <tr class="bg-gray">
+                                        <th class="p-3">Shipping</th>
+                                        <td class="p-3">We currently offer free shipping worldwide on all orders over
+                                            $100.</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="p-3">Sizing</th>
+                                        <td class="p-3">Fits true to size. Do you need size advice?</td>
+                                    </tr>
+                                    <tr class="bg-gray">
+                                        <th class="p-3">Return & exchange</th>
+                                        <td class="p-3">If you are not satisfied with your purchase you can return it to
+                                            us
+                                            within 14 days for an exchange or refund.</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="p-3">Assistance</th>
+                                        <td class="p-3">Contact us on (+44) 555 88 65, or email us at
+                                            support@themesky.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <div id="specification">
+                        <table>
+                            <tbody>
+                                <tr class="bg-gray">
+                                    <th class="p-3">Fabric Type</th>
+                                    <td class="p-3 w-100">50% Cotton, 48% Polyester, 2% Spandex</td>
+                                </tr>
+                                <tr>
+                                    <th class="p-3">Care Instructions</th>
+                                    <td class="p-3 w-100">Hand Wash Only</td>
+                                </tr>
+                                <tr class="bg-gray">
+                                    <th class="p-3">Returns</th>
+                                    <td class="p-3 w-100">FREE Returns</td>
+                                </tr>
+                                <tr>
+                                    <th class="p-3">Season</th>
+                                    <td class="p-3 w-100">Spring, Summer, Fall</td>
+                                </tr>
+                                <tr class="bg-gray">
+                                    <th class="p-3">Dimensions</th>
+                                    <td class="p-3 w-100">0.5 x 0.5 x 0.5 inches</td>
+                                </tr>
+                                <tr>
+                                    <th class="p-3">Item Weight</th>
+                                    <td class="p-3 w-100">5.6 ounces</td>
+                                </tr>
+                                <tr class="bg-gray">
+                                    <th class="p-3">Material</th>
+                                    <td class="p-3 w-100">Varsity jacket made of polyester fabric — super durable, soft,
+                                        breathable, cozy,
+                                        comfortable</td>
+                                </tr>
+                                <tr>
+                                    <th class="p-3">Multi-occasion</th>
+                                    <td class="p-3 w-100">Fashion unisex letterman jackets — perfect for men, women,
+                                        teens, or
+                                        couples</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                    tabindex="0">
+                    <div id="reviews" class="container py-5">
+
+                        <div class="row mb-5">
+                            <div class="col-md-3 text-center">
+                                <h1 class="display-4 fw-bold">4.50</h1>
+                                <div class="text-black fs-4">
+                                    ★★★★☆
+                                </div>
+                                <p class="text-muted">Based on 2 reviews</p>
+                            </div>
+
+                            <div class="col-md-9 w-25">
+                                <div class="mb-2 d-flex align-items-center">
+                                    <span class="me-2">5★</span>
+                                    <div class="progress flex-grow-1">
+                                        <div class="progress-bar bg-dark" style="width: 50%"></div>
+                                    </div>
+                                    <span class="ms-2">1</span>
+                                </div>
+
+                                <div class="mb-2 d-flex align-items-center">
+                                    <span class="me-2">4★</span>
+                                    <div class="progress flex-grow-1">
+                                        <div class="progress-bar bg-dark" style="width: 50%"></div>
+                                    </div>
+                                    <span class="ms-2">1</span>
+                                </div>
+
+                                <div class="mb-2 d-flex align-items-center">
+                                    <span class="me-2">3★</span>
+                                    <div class="progress flex-grow-1">
+                                        <div class="progress-bar bg-dark" style="width: 0%"></div>
+                                    </div>
+                                    <span class="ms-2">0</span>
+                                </div>
+
+                                <div class="mb-2 d-flex align-items-center">
+                                    <span class="me-2">2★</span>
+                                    <div class="progress flex-grow-1">
+                                        <div class="progress-bar bg-dark" style="width: 0%"></div>
+                                    </div>
+                                    <span class="ms-2">0</span>
+                                </div>
+
+                                <div class="mb-2 d-flex align-items-center">
+                                    <span class="me-2">1★</span>
+                                    <div class="progress flex-grow-1">
+                                        <div class="progress-bar bg-dark" style="width: 0%"></div>
+                                    </div>
+                                    <span class="ms-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="row align-items-stretch">
+                                <div class="col-md-2"><img src="./../images/profile.jpeg" class="" alt=""></div>
+                                <div class="col-md-10">
+
+                                    <div class="text-black mb-1">★★★★★</div>
+                                    <h6 class="mb-0 fw-bold">Andrew</h6>
+                                    <small class="text-muted d-block mb-2">January 22, 2024</small>
+                                    <p>This computer is perfect with its performance and speed. Light weight and great
+                                        quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="row align-items-stretch">
+                                <div class="col-md-2"><img src="./../images/profile.jpeg" class="" alt=""></div>
+                                <div class="col-md-10">
+
+                                    <div class="text-black mb-1">★★★★★</div>
+                                    <h6 class="mb-0 fw-bold">Andrew</h6>
+                                    <small class="text-muted d-block mb-2">January 22, 2024</small>
+                                    <p>This computer is perfect with its performance and speed. Light weight and great
+                                        quality.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <h3 class="fw-bold mb-3">Add a review</h3>
+                        <p class="text-muted">Your email address will not be published. Required fields are marked *</p>
+
+                        <form class="bg-light p-4 rounded">
+
+                            <label class="form-label fw-semibold">Your rating *</label>
+                            <div class="text-black fs-4 mb-3">
+                                ★ ★ ★ ★ ★
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Choose pictures (max: 2 files, 50KB each)</label>
+                                <input type="file" class="form-control" multiple>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Name *</label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Email *</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Your review *</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+
+                            <button class="btn btn-dark px-4 py-2">Submit</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End information section -->
+    <!-- start related product -->
+    <section class="related-product my-5">
+        <div class="container">
+
+            <div class="d-flex justify-content-between">
+                <h2 class="fw-bold fs-2 w-75"> Related Product</h2>
+                <div class="fs-2"><a href="#" class="nav-link position-relative d-inline fw-lighter">Sea All Product<div
+                            class="line position-absolute start-0 end-0"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col position-relative border-1 border hover-shadow position-relative">
+                    <div class="text-white position-absolute discount">
+                        <span class="p-1 px-2 rounded rounded-2 bg-danger">33%</span>
+                    </div>
+                    <div class="inner border-1 border-black">
+                        <div class="img-box"><img src="./../images/skirt.jpg" class="w-100" alt=""></div>
+                        <div class="content p-2 fw-medium">
+                            <p>Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD
+                            </p>
+                            <p>999$ <del class="text-gray">1533$</del></p>
+                            <div class="icons d-flex">
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="icons flex-column position-absolute end-0 p-3 top-0 h-50 justify-content-between d-flex opacity-0">
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-heart fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-search fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-code-compare fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-shopping-cart fa-solid fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="col position-relative border-1 border hover-shadow position-relative">
+                    <div class="inner border-1 border-black">
+                        <div class="img-box"><img src="./../images/glasses.jpg" class="w-100" alt=""></div>
+                        <div class="content p-2 fw-medium">
+                            <p>Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD
+                            </p>
+                            <p>999$ <del class="text-gray">1533$</del></p>
+                            <div class="icons d-flex">
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="icons flex-column position-absolute end-0 p-3 top-0 h-50 justify-content-between d-flex opacity-0">
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-heart fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-search fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-code-compare fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-shopping-cart fa-solid fa-xl"></i></a>
+                    </div>
+                </div>
+
+                <div class="col position-relative border-1 border hover-shadow position-relative">
+                    <div class="text-white position-absolute discount">
+                        <span class="p-1 px-2 rounded rounded-2 bg-danger">33%</span>
+                    </div>
+                    <div class="inner border-1 border-black">
+                        <div class="img-box"><img src="./../images/device.png" class="w-100" alt=""></div>
+                        <div class="content p-2 fw-medium">
+                            <p>Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD
+                            </p>
+                            <p>999$ <del class="text-gray">1533$</del></p>
+                            <div class="icons d-flex">
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="icons flex-column position-absolute end-0 p-3 top-0 h-50 justify-content-between d-flex opacity-0">
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-heart fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-search fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-code-compare fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-shopping-cart fa-solid fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="col position-relative border-1 border hover-shadow position-relative">
+                    <div class="text-white position-absolute discount">
+                        <span class="p-1 px-2 rounded rounded-2 bg-danger">33%</span>
+                    </div>
+                    <div class="inner border-1 border-black">
+                        <div class="img-box"><img src="./../images/electronic-30-6-300x300.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content p-2 fw-medium">
+                            <p>Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD
+                            </p>
+                            <p>999$ <del class="text-gray">1533$</del></p>
+                            <div class="icons d-flex">
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="icons flex-column position-absolute end-0 p-3 top-0 h-50 justify-content-between d-flex opacity-0">
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-heart fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-search fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-code-compare fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-shopping-cart fa-solid fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="col position-relative border-1 border hover-shadow position-relative">
+                    <div class="inner border-1 border-black">
+                        <div class="img-box"><img src="./../images/electronic-51-300x300.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content p-2 fw-medium">
+                            <p>Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD
+                            </p>
+                            <p>999$ <del class="text-gray">1533$</del></p>
+                            <div class="icons d-flex">
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                                <i class="fa-star fa-solid text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="icons flex-column position-absolute end-0 p-3 top-0 h-50 justify-content-between d-flex opacity-0">
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-heart fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-search fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-code-compare fa-solid fa-xl"></i></a>
+                        <a href="#" class="nav-link bg-gray p-1 rounded rounded-2 transition"><i
+                                class="fa-shopping-cart fa-solid fa-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End related product -->
+    <!-- Start Footer section -->
+    <footer class="bg-dark">
+        <div class="container-md py-3">
+            <div class="row align-items-stretch">
+                <div class="col-md-3 order-1 order-md-1">
+                    <div class="inner">
+                        <div class="d-flex my-2 flex-column">
+                            <div class="icon"><img class="w-50" src="./../images/logo-300x95.png" alt=""></div>
+                        </div>
+                        <div class="about text-gray">
+                            <p><i class="fa-solid fa-location fa-lg my-1"></i> 29 SE 2nd Ave, Miami Florida 33131,
+                                United States</p>
+                            <p><i class="fa-solid fa-mail-bulk fa-lg my-1"></i>info@example.com</p>
+                            <p class="text-white fw-bold fs-3 hover-red my-1">
+                                (+92) 3942 7879
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-3 order-md-2 order-sm-1">
+                    <div class="inner d-flex justify-content-between">
+                        <ul class="d-flex flex-column">
+                            <li class="my-3"><a class="nav-link text-white fw-bold" href="#">SHOPPING</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Wishlist</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Shop by Brand</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Offers</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Track order</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Size Guide</a></li>
+                        </ul>
+                        <ul class="d-flex flex-column">
+                            <li class="my-3"><a class=" text-white fw-bold nav-link" href="#">INFOMATION</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Track Order</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Shipping & Returns</a>
+                            </li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">About us</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Help</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Gift Cards</a></li>
+                        </ul>
+                        <ul class="d-flex flex-column">
+                            <li class="my-3"><a class="text-white fw-bold nav-link" href="#">ACCOUNT</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Cart</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">My account</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">My orders</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Wishlist</a></li>
+                            <li class="my-2"><a class="nav-link text-white hover-red" href="#">Affiliate Program</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 order-2 order-md-2">
+
+                    <div class="content h-100 d-flex flex-column justify-content-center">
+                        <div class="icons d-flex justify-content-between my-2 order-1 order-sm-3">
+                            <a href="#" class="hover-red text-gray"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                            <a href="#" class="hover-red text-gray"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                            <a href="#" class="hover-red text-gray"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="#" class="hover-red text-gray"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        </div>
+
+                        <h2 class="fw-bold text-white order-2 order-sm-1">Let’s keep in touch</h2>
+
+                        <div
+                            class="input-email order-3 order-sm-2 my-3 border border-1 p-1 d-flex justify-content-between align-items-center">
+                            <input type="text" class="bg-transparent p-1 outline-none text-white border-0 w-100"
+                                placeholder="Enter Your Email..">
+                            <i class="fa-solid fa-arrow-right text-gray hover-red"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="my-3 border-1 border-light border rounded rounded-2">
+                <div class="row text-center">
+                    <div class="col-md-4 my-2">
+                        <div
+                            class="inner text-white d-flex flex-column flex-md-row align-items-center justify-content-center gap-2">
+                            <i class="fa-solid fa-phone fa-lg"></i>
+                            <p class="fw-bold mb-0">Didn't find what you were looking for?</p>
+                        </div>
+                        <div class="my-1 helping"><a class="nav-link d-inline position-relative my-2 text-white"
+                                href="#">Contact Us
+                                <div class="line position-absolute  start-0 end-0"></div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-md-4 my-2">
+                        <div
+                            class="inner text-white d-flex flex-column flex-md-row align-items-center justify-content-center gap-2">
+                            <i class="fa-solid fa-sad-cry fa-lg"></i>
+                            <p class="fw-bold mb-0">How can we help you today?</p>
+                        </div>
+                        <div class="my-1 helping"><a class="nav-link text-white d-inline position-relative "
+                                href="#">Help Center
+                                <div class="line position-absolute  start-0 end-0"></div>
+                            </a></div>
+                    </div>
+
+                    <div class="col-md-4 my-2">
+                        <div
+                            class="inner text-white d-flex flex-column flex-md-row align-items-center justify-content-center gap-2">
+                            <i class="fa-solid fa-gear fa-lg"></i>
+                            <p class="fw-bold mb-0">We’d love to hear what you think!</p>
+                        </div>
+                        <div class="my-1 helping"><a
+                                class="position-relative d-inline position-relative nav-link text-white"
+                                href="#">Feedback<div class="line position-absolute  start-0 end-0"></div></a></div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-between my-4">
+                <p class="text-gray">Copyright © Merto. All Rights Reserved</p>
+                <img class="w-25" src="./../images/payment-icons-1.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <!-- End footer section -->
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./../js/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+<script src="./../js/index.js"></script>
+
+
+</body>
+
+</html>
